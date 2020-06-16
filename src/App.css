@@ -1,0 +1,11 @@
+.App{
+  background: #F6F7FB;
+}
+.main-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+} 
+.avatar-name-padding, .avatar{
+  padding-left: 7px;
+  padding-right: 7px;
+}

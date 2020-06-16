@@ -1,0 +1,17 @@
+.app-nav{
+    padding: 8px 120px;
+    background: #4660CB;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding: 8px 20px;
+
+}
+.avatar-name-padding{
+    padding-left: 10px;
+    padding-right: 0;
+}
+.notification{
+    font-size: 28px;
+    font-weight: 500;
+}
