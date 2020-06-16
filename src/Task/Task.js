@@ -6,11 +6,11 @@ import { FaPencilAlt } from "react-icons/fa";
 import avatar from '../Images/avatar.jpg'
 
 const task = props => {
-    // console.log(props)
+    console.log(props)
     return (
         <Container className="task-cont">
             <div className="task-row-cont">
-                <Badge className="custom-badge">ON TRACK</Badge>
+                <Badge className="custom-badge">{props.status}</Badge>
                 <Form.Check
                     className="switch-icon"
                     disabled
@@ -19,10 +19,10 @@ const task = props => {
                     id="disabled-custom-switch"
                 />
                 <div>
-                    <h4>Wireframe Homepage</h4>
-                    <span>2 hours completed</span>
+                    <h4>{props.title}</h4>
+                    <span>{props.hoursCompleted} hours completed</span>
                     <br />
-                    <span>9.2 hours billed</span>
+                    <span>{props.hoursBilled} hours billed</span>
                     <br />
 
                 </div>

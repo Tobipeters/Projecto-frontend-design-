@@ -5,7 +5,10 @@ import Create from '../Create/Create'
 import Task from '../Task/Task'
 
 const stage = props =>{
-    // console.log(props)
+    console.log(props)
+    const todoList= props.todo;
+    const inProgressList = props.inProgress;
+    const completedList = props.completed
     return(
         <Container>
             <Row>
