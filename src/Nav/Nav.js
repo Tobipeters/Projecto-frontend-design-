@@ -15,17 +15,13 @@ const nav = () => {
                     <Nav.Link href="#home">Dashboard</Nav.Link>
                     <Nav.Link href="#link">Projects</Nav.Link>
                     <Nav.Link href="#link">
-                        <FaRegBell className="notification"/>
+                        <FaRegBell className="notification" />
                         <Badge variant="danger">2</Badge>
                     </Nav.Link>
-                    <Nav.Link href="#link">
-                        <Row>
-                            <Col xs={6} md={3}>
-                                <Image src={avatar} alt="avatar"  width="30" height="30" roundedCircle />
-                            </Col>
-                            <Col xs={6} md={9} className="avatar-name-padding">
-                            Oluwatobi Peter
-                            </Col>
+                    <Nav.Link href="#link" >
+                        <Row className="avatar">
+                            <Image src={avatar} alt="avatar" width="30" height="30" roundedCircle />
+                            <span>Oluwatobi Peter</span>
                         </Row>
                         {/* <img
                             
@@ -33,7 +29,7 @@ const nav = () => {
                            
                             className="d-inline-block align-top"
                         />{' '} */}
-                      
+
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>

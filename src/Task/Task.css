@@ -1,0 +1,38 @@
+.task-cont{
+    padding: 0;
+    height: 200px;
+    margin-bottom:25px;
+}
+.task-row-cont{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+  
+}
+.task-row-cont h4{
+    margin: 0;
+    padding: 10px 0 5px;
+}
+.task-row-cont span{
+    margin: 0;
+    padding: 3px 0;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+.custom-badge{
+    background:#DAEFF5;
+    color: #46B0CB;
+}
+.switch-icon, .card-icon{
+    float: right;
+}
+.icon-clock, .icon-pen{
+    font-size: 1.1em;
+}
+.icon-clock{
+    margin-left: 10px;
+}
+.ava-icon-cont{
+    padding:15px 0 0;
+}

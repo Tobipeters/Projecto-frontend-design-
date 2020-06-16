@@ -1,0 +1,10 @@
+.create-cont{
+    padding: 0;
+}
+.create-row-cont{
+    background: #E1E4F6;
+    border-radius: 10px;
+    border: 2px dashed #4660cb47;
+    margin-bottom: 25px;
+
+}
