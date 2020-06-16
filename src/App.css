@@ -1,6 +1,10 @@
 .App{
   background: #F6F7FB;
 }
+.app-nav{
+  padding: 8px 120px;
+  background: #4660CB;
+}
 .main-container{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -43,12 +47,12 @@
   margin: auto;
   background: #4660CB;
   color: #fff;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   text-align: center;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
 }
 .create-plus span{
   vertical-align: middle;
@@ -59,4 +63,17 @@
   padding: 0 3px 0 10px;
   vertical-align: middle;
   color: #21252975;
+}
+
+@media screen and (max-width:800px){
+    .app-nav{
+      padding: 8px 16px;
+    }
+    .main-container{
+      padding: 30px 16px;
+    }
+    .col-create-plus{
+      text-align: end;
+      padding-right: 5px;
+    }
 }

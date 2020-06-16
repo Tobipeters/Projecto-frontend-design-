@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row} from 'react-bootstrap'
 import StageTitle from '../StageTitle/StageTitle'
 import Create from '../Create/Create'
 import Task from '../Task/Task'

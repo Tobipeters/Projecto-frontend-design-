@@ -1,7 +1,7 @@
 import React from 'react'
 import './Nav.css'
 import avatar from '../Images/avatar.jpg'
-import { Navbar, Nav, Image, Col, Row, Badge } from 'react-bootstrap';
+import { Navbar, Nav, Image, Row, Badge } from 'react-bootstrap';
 import { FaRegBell } from "react-icons/fa";
 
 
@@ -16,12 +16,12 @@ const nav = () => {
                     <Nav.Link href="#link">Projects</Nav.Link>
                     <Nav.Link href="#link">
                         <FaRegBell className="notification" />
-                        <Badge variant="danger">2</Badge>
+                        <Badge className="not-badge">2</Badge>
                     </Nav.Link>
                     <Nav.Link href="#link" >
                         <Row className="avatar">
                             <Image src={avatar} alt="avatar" width="30" height="30" roundedCircle />
-                            <span>Oluwatobi Peter</span>
+                            <span className="avatar-name">Oluwatobi Peter</span>
                         </Row>
                         {/* <img
                             

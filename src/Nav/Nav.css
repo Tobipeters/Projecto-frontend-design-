@@ -1,7 +1,4 @@
-.app-nav{
-    padding: 8px 120px;
-    background: #4660CB;
-}
+
 .navbar-dark .navbar-nav .nav-link{
     color: #fff;
     padding: 8px 20px;
@@ -11,7 +8,25 @@
     padding-left: 10px;
     padding-right: 0;
 }
+.avatar-name{
+    color: #fff !important;
+    font-weight: 400!important;
+}
 .notification{
     font-size: 28px;
     font-weight: 500;
+}
+.not-badge{
+    margin-left: -10px;
+    color: #fff;
+    background: #4660CB;
+    padding: 3px;
+}
+
+@media screen and (max-width:800px){
+    .navbar-dark .navbar-nav .nav-link{
+   
+        padding: 8px 0;
+    
+    }
 }

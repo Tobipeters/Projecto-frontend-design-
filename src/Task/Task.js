@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, Badge, Image, Form } from 'react-bootstrap'
-import Task from './Task.css'
+import { Container, Badge, Image, Form } from 'react-bootstrap'
+import './Task.css'
 import { GiAlarmClock } from "react-icons/gi";
 import { FaPencilAlt } from "react-icons/fa";
 import avatar from '../Images/avatar.jpg'

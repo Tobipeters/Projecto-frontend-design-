@@ -20,13 +20,13 @@ class App extends React.Component {
         <Nav />
         <Container className="main-container">
           <Row>
-            <Col xs={6} md={6}>
+            <Col xs={12} md={6}>
               <Row className="avatar">
                 <Image src={avatar} alt="avatar" width="30" height="30" roundedCircle />
                 <span>+  New Member </span>
               </Row>
             </Col>
-            <Col xs={6} md={6} className="col-create-plus">
+            <Col xs={12} md={6} className="col-create-plus">
               <div className="">
                 <div className="create-plus">
                   <FaPlus className="plus-icon" />

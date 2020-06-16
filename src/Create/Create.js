@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import Create from './Create.css'
+import { Container } from 'react-bootstrap'
+import './Create.css'
 import { FaPlus } from "react-icons/fa";
 
 
