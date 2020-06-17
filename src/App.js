@@ -109,7 +109,7 @@ class App extends React.Component {
               </Row>
             </Col>
             <Col xs={12} md={6} className="col-create-plus">
-              <div >
+              <div className="create-plusss">
                 <div className="create-plus">
                   <FaPlus className="plus-icon" />
                 </div>

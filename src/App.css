@@ -12,6 +12,9 @@
 .avatar{
   padding: 0 0 0 7px;
 }
+.create-plusss, .avatar{
+  cursor: pointer;
+}
 .avatar span{
     padding-left: 10px;
     font-weight: 700;
