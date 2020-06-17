@@ -6,7 +6,7 @@ import { FaPencilAlt } from "react-icons/fa";
 import avatar from '../Images/avatar.jpg'
 
 const task = props => {
-    console.log(props)
+    // console.log(props)
     return (
         <Container className="task-cont">
             <div className="task-row-cont">
