@@ -67,6 +67,9 @@
   vertical-align: middle;
   color: #21252975;
 }
+.for-mobile{
+  display: none;
+}
 
 @media screen and (max-width:800px){
     .app-nav{
@@ -74,9 +77,30 @@
     }
     .main-container{
       padding: 30px 16px;
+      height: 120vh;
     }
     .col-create-plus{
       text-align: end;
       padding-right: 5px;
     }
+  
 }
+@media screen and (max-width:500px){
+  .for-desktop{
+    display: none;
+  }
+  .for-mobile{
+    display: block;
+  }
+  .accordion-btn{
+    width: 100%;
+    margin-bottom: 10px;
+    color: #000;
+    background: #fff;
+   
+  }
+  .btn-link, .btn-link:focus{
+    text-decoration: none;
+  }
+}
+

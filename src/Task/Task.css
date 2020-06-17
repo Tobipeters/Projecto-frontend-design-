@@ -43,3 +43,11 @@
 .ava-icon-cont{
     padding:15px 0 0;
 }
+.title{
+    font-size: 1.22em;
+    }
+
+@media screen and (max-width:950px){
+    
+     
+    }

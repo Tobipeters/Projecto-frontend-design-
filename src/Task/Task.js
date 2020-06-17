@@ -19,7 +19,7 @@ const task = props => {
                     id="disabled-custom-switch"
                 />
                 <div>
-                    <h4>{props.title}</h4>
+                    <h4 className="title">{props.title}</h4>
                     <span>{props.hoursCompleted} hours completed</span>
                     <br />
                     <span>{props.hoursBilled} hours billed</span>

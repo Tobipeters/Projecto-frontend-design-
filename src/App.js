@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Nav from './Nav/Nav'
 import avatar from './Images/avatar.jpg'
-import { Container, Col, Row, Image } from 'react-bootstrap';
+import { Container, Col, Row, Image, Accordion, Button } from 'react-bootstrap';
 import { FaPencilAlt, FaPlus } from "react-icons/fa";
 import StageTitle from './StageTitle/StageTitle'
 import Create from './Create/Create'
@@ -50,7 +50,7 @@ class App extends React.Component {
    * the array,but for one reason or the other, it is not working.
    * I will look into it though
    */
-////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////
   loopingFunc = arrayName => {
     arrayName.map((task, index) => {
       return <Task
@@ -124,19 +124,63 @@ class App extends React.Component {
           </Row>
           <Row>
             <Col xs={12} md={4} className="col-pad" >
+              <div className="for-desktop">
               <StageTitle title="To do" />
               {todoList}
               <Create />
+              </div>
+              <Accordion className="for-mobile">
+                <Accordion.Toggle className="accordion-btn" as={Button} variant="link" >
+                  <StageTitle title="To do" />
+                </Accordion.Toggle>
+
+                <Accordion.Collapse >
+                  <div>
+                  {todoList}
+                  <Create />
+                  </div>
+                </Accordion.Collapse>
+              </Accordion>
             </Col>
             <Col xs={12} md={4} className="col-pad">
+            <div className="for-desktop">
               <StageTitle title="In progress" />
               {inProgressList}
               <Create />
+          </div>
+              <Accordion className="for-mobile">
+                <Accordion.Toggle className="accordion-btn" as={Button} variant="link" >
+                  <StageTitle title="In progress" />
+                </Accordion.Toggle>
+
+                <Accordion.Collapse >
+                  <div>
+                  {inProgressList}
+                  <Create />
+                  </div>
+                </Accordion.Collapse>
+
+              </Accordion>
             </Col>
             <Col xs={12} md={4} className="col-pad">
+            <div className="for-desktop">
               <StageTitle title="Completed" />
               {completedList}
               <Create />
+          </div>
+              <Accordion className="for-mobile">
+                <Accordion.Toggle className="accordion-btn" as={Button} variant="link" >
+                  <StageTitle title="Completed" />
+                </Accordion.Toggle>
+
+                <Accordion.Collapse >
+                <div>
+                  {completedList}
+                  <Create />
+                  </div>
+                </Accordion.Collapse>
+
+              </Accordion>
             </Col>
           </Row>
         </Container>
