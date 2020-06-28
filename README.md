@@ -1,4 +1,4 @@
-# React-Sample-UI
+# Projecto frontend design (A project management frontend design)
 * A frontend design using React 
 * No functionality added just frontend design 
 
